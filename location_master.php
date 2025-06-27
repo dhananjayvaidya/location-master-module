@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 /*
 Module Name: Location master
 Description: This module allow you to create, update, delete & view countries, states, cities, districts in perfex CRM
-Version: 1.0.0
+Version: 1.1.0
 Author: VDigitalize
 Author URI: https://vdigitalize.com
 Requires at least: 2.3.*
