@@ -16,12 +16,23 @@ $lang[$prefix.'states'] =  "States";
 $lang[$prefix.'state'] =  "State";
 //cities
 $lang[$prefix.'cities'] =  "Cities";
+$lang[$prefix.'city'] =  "City";
+
+//select options
+$lang[$prefix.'select_state'] =  "Select State";
+$lang[$prefix.'select_country'] =  "Select Country";
+$lang[$prefix.'select_city'] =  "Select City";
+
 
 //districts
 $lang[$prefix.'districts'] =  "Districts";
+$lang[$prefix.'district'] =  "District";
+$lang[$prefix.'select_district'] =  "Select District";
 
 //pincode
 $lang[$prefix.'pincode'] =  "Pincode";
+$lang[$prefix.'pincodes'] =  "Pincodes";
+$lang[$prefix.'select_pincode'] =  "Select Pincode";
 
 //misc
 $lang[$prefix.'masters'] =   "Masters";

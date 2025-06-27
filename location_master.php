@@ -50,22 +50,23 @@ function location_master_module_init_menu_items()
             
             'position' => 2,
         ]);
-        // Add 'cities_master' as a child under 'masters'
-        $CI->app_menu->add_sidebar_children_item('masters', [
-            'slug'     => 'cities_master',
-            'name'     => _l('location_master_cities'),
-            'href'     => admin_url('location_master/cities_master'),
-            
-            'position' => 3,
-        ]);
         // Add 'districts_master' as a child under 'masters'
         $CI->app_menu->add_sidebar_children_item('masters', [
             'slug'     => 'districts_master',
             'name'     => _l('location_master_districts'),
             'href'     => admin_url('location_master/districts_master'),
             
+            'position' => 3,
+        ]);
+        // Add 'cities_master' as a child under 'masters'
+        $CI->app_menu->add_sidebar_children_item('masters', [
+            'slug'     => 'cities_master',
+            'name'     => _l('location_master_cities'),
+            'href'     => admin_url('location_master/cities_master'),
+            
             'position' => 4,
         ]);
+        
         // Add 'pincode_master' as a child under 'masters'
         $CI->app_menu->add_sidebar_children_item('masters', [
             'slug'     => 'pincode_master',
