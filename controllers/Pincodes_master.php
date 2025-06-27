@@ -85,7 +85,15 @@ class Pincodes_master extends AdminController
         log_activity('Deleted pincode', 'Pincode ID: ' . $id);
         redirect(admin_url($this->url_path));
     }
+    public function get_pincodes_by_city($city_id)
+    {
+        if (!has_permission($this->permission_name, '', 'view')) {
+            access_denied($this->permission_name);
+        }
 
+        $pincodes = $this->location_master_model->get_pincodes_by_city($city_id);
+        echo json_encode($pincodes);
+    }
     private function _prepare_view_data($data){
         //add default variables and constants to the data array
         $data['lang_prefix'] = $this->lang_prefix;
